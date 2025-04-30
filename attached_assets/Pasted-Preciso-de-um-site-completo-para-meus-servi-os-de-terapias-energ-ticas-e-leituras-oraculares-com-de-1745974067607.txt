@@ -1,0 +1,137 @@
+Preciso de um site completo para meus serviços de terapias energéticas e leituras oraculares, com destaque para meu plano de assinatura "Conexão Cigana". O site deve ser 100% otimizado para dispositivos móveis e permitir alternar entre tema claro e escuro.
+Estrutura do Site
+1. Homepage
+
+Banner principal atraente com título e subtítulo
+Informações sobre formato dos atendimentos (online via WhatsApp)
+Cards dos serviços disponíveis com destaque para os preços e descontos de 10% para assinantes
+Seção destacada sobre o Plano Conexão Cigana
+Tabela mostrando a economia em cada serviço para assinantes
+Apresentação pessoal resumida (Sobre Mim)
+Depoimentos dos clientes
+Como funciona o processo de atendimento
+Chamada para ação para contratar serviços
+
+2. Página do Plano Conexão Cigana
+
+Banner principal explicando o plano
+Valor mensal de R$49,90 em destaque
+Todos os benefícios do plano:
+
+5 perguntas mensais garantidas
+Desconto de 10% em perguntas adicionais (de R$15 por R$13,50)
+Desconto de 10% em consultas completas
+Pergunta bônus no mês de aniversário
+Prioridade na fila de atendimento
+App exclusivo para assinantes (com calendário interativo, vídeos semanais e ritual mensal)
+
+
+Comparativo mostrando a economia com o plano
+Depoimentos específicos de assinantes
+Perguntas frequentes sobre o plano
+Botão de chamada para ação para assinatura
+
+3. Página de Jogos de Tarot
+
+Banner explicativo sobre leituras de tarot
+Informações sobre formato dos atendimentos
+Detalhes do Jogo de 5 Cartas:
+
+Preço: R$107 (R$96,30 para assinantes)
+Duração: 35 minutos
+O que será analisado nos 5 aspectos
+
+
+Detalhes do Jogo de 10 Cartas:
+
+Preço: R$170 (R$153 para assinantes)
+Duração: 1 hora
+O que será analisado nos 10 aspectos
+
+
+Comparativo entre os jogos
+Depoimentos específicos sobre tarot
+Como funciona uma consulta
+Perguntas frequentes sobre tarot
+Promoção do Plano Conexão Cigana destacando o desconto
+
+4. Página de Leituras Mensais e de Aniversário
+
+Banner explicativo sobre leituras de ciclos
+Informações sobre formato dos atendimentos
+Detalhes da Leitura Mensal:
+
+Preço: R$107 (R$96,30 para assinantes)
+Duração: 40 minutos
+Análise das 6 áreas (geral, profissional, financeiro, emocional, amor, conselho)
+
+
+Detalhes da Leitura de Aniversário:
+
+Preço: R$170 (R$153 para assinantes)
+Duração: 1:20 horas
+Análise dos 10 aspectos do novo ciclo
+
+
+Benefícios das leituras de ciclos
+Comparativo entre as leituras
+Depoimentos específicos
+Perguntas frequentes
+Promoção do Plano Conexão Cigana
+
+5. Página de Terapias
+
+Banner explicativo sobre terapias energéticas
+Introdução às terapias e diferenças em relação às leituras
+Detalhes do Thetahealing:
+
+Preço: R$350 (R$315 para assinantes)
+Duração: 1:30 horas por chamada de vídeo
+O que é, processo e situações que podem ser trabalhadas
+
+
+Detalhes do Reiki:
+
+Preço: R$250 (R$225 para assinantes)
+Duração: 1:30 horas por chamada de vídeo
+O que é, benefícios e como funciona o atendimento online
+
+
+Comparativo entre as terapias
+Como se preparar para uma sessão
+Perguntas frequentes sobre terapias
+Quando escolher terapia vs. leitura oracular
+Promoção do Plano Conexão Cigana
+
+6. Página Sobre Mim
+
+Foto profissional
+História pessoal e jornada espiritual
+Formações e certificações
+Filosofia de trabalho e abordagem
+Áreas de especialidade
+Depoimentos sobre meu trabalho
+Links para os serviços
+
+7. Página de Contato e FAQ
+
+Formulário de contato
+Informações de contato direto (WhatsApp, e-mail)
+Redes sociais
+Perguntas frequentes gerais organizadas por categorias
+Política de cancelamento e remarcação
+
+Elementos Comuns
+
+Menu de navegação fácil
+Botão de WhatsApp fixo
+Cores em tons de roxo e dourado
+Alternador de tema claro/escuro
+Destaque para o desconto de 10% para assinantes em todas as páginas
+
+Observações Importantes
+
+Todos os serviços possuem 10% de desconto para assinantes do Plano Conexão Cigana
+Site será utilizado exclusivamente em dispositivos móveis
+Visual místico com elementos relacionados ao tarot e espiritualidade
+Todos os valores e benefícios devem ser mantidos exatamente como informados
