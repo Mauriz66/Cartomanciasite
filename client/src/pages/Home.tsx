@@ -2,9 +2,13 @@ import { Link } from "wouter";
 import { ServiceCard } from "@/components/ui/service-card";
 import { TestimonialCard } from "@/components/ui/testimonial-card";
 import { BenefitItem } from "@/components/ui/benefit-item";
+import { TarotGallery } from "@/components/ui/tarot-gallery";
 import { services } from "@/data/services";
 import { testimonials } from "@/data/testimonials";
 import { whatsappLinks } from "@/data/whatsapp-links";
+
+// Imagem para o banner
+import bannerImage from "@/assets/images/image_fx (8).jpg";
 
 export default function Home() {
   return (
@@ -13,13 +17,13 @@ export default function Home() {
       <div className="relative h-[70vh] overflow-hidden bg-gradient-to-br from-primary/80 to-accent flex items-center">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&h=900&q=80" 
-            alt="Tarot cards background" 
+            src={bannerImage} 
+            alt="Consulta de tarô com velas" 
             className="w-full h-full object-cover opacity-40"
           />
         </div>
         <div className="container mx-auto px-6 z-10 text-center">
-          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
+          <h1 className="font-sans text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
             Descubra seu Caminho Espiritual
           </h1>
           <p className="text-xl md:text-2xl text-white/90 font-light mb-8 max-w-2xl mx-auto">
@@ -41,7 +45,7 @@ export default function Home() {
       {/* Intro Section */}
       <div className="container mx-auto px-6 py-16">
         <div className="text-center mb-12">
-          <h2 className="font-serif text-3xl font-bold mb-4 text-primary dark:text-secondary">
+          <h2 className="font-sans text-3xl font-bold mb-4 text-primary dark:text-secondary">
             Encontre Equilíbrio e Direção
           </h2>
           <p className="text-lg max-w-3xl mx-auto text-muted-foreground">
@@ -67,7 +71,7 @@ export default function Home() {
         <div className="mt-20 gradient-primary-light rounded-2xl p-8">
           <div className="flex flex-col md:flex-row">
             <div className="md:w-1/2 mb-6 md:mb-0 md:pr-8">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-primary dark:text-secondary">
+              <h2 className="font-sans text-3xl font-bold mb-4 text-primary dark:text-secondary">
                 <i className="fas fa-star text-secondary"></i> Plano Conexão Cigana
               </h2>
               <p className="text-lg mb-6 text-muted-foreground">
@@ -107,7 +111,7 @@ export default function Home() {
             </div>
             
             <div className="md:w-1/2 bg-card/80 dark:bg-card rounded-lg shadow-md p-6">
-              <h3 className="font-serif text-xl font-bold mb-4 text-primary dark:text-secondary">
+              <h3 className="font-sans text-xl font-bold mb-4 text-primary dark:text-secondary">
                 Economia para Assinantes
               </h3>
               <div className="overflow-x-auto">
@@ -172,7 +176,7 @@ export default function Home() {
             </div>
           </div>
           <div className="md:w-2/3">
-            <h2 className="font-serif text-3xl font-bold mb-4 text-primary dark:text-secondary">Sobre Mim</h2>
+            <h2 className="font-sans text-3xl font-bold mb-4 text-primary dark:text-secondary">Sobre Mim</h2>
             <p className="text-lg mb-6 text-muted-foreground">
               Minha jornada espiritual começou há mais de 10 anos, quando descobri minha conexão com os oráculos 
               e a energia universal. Desde então, dedico-me a aprofundar conhecimentos em diversas práticas 
@@ -207,9 +211,21 @@ export default function Home() {
           </div>
         </div>
         
+        {/* Tarot Gallery Section */}
+        <div className="mt-20">
+          <h2 className="font-sans text-3xl font-bold mb-6 text-center text-primary dark:text-secondary">
+            Conheça o Universo do Tarô
+          </h2>
+          <p className="text-lg text-center max-w-3xl mx-auto mb-8 text-muted-foreground">
+            As cartas revelam caminhos e trazem clareza para questões importantes em sua vida
+          </p>
+          
+          <TarotGallery />
+        </div>
+        
         {/* How It Works Section */}
         <div className="mt-20">
-          <h2 className="font-serif text-3xl font-bold mb-10 text-center text-primary dark:text-secondary">
+          <h2 className="font-sans text-3xl font-bold mb-10 text-center text-primary dark:text-secondary">
             Como Funciona o Atendimento
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -218,7 +234,7 @@ export default function Home() {
               <div className="w-16 h-16 mx-auto bg-primary dark:bg-secondary rounded-full flex items-center justify-center mb-4">
                 <span className="text-white dark:text-gray-900 text-2xl font-bold">1</span>
               </div>
-              <h3 className="font-serif text-xl font-bold mb-3 text-primary dark:text-secondary">Escolha o Serviço</h3>
+              <h3 className="font-sans text-xl font-bold mb-3 text-primary dark:text-secondary">Escolha o Serviço</h3>
               <p className="text-muted-foreground">
                 Selecione a consulta ou terapia que melhor atende suas necessidades atuais.
               </p>
@@ -229,7 +245,7 @@ export default function Home() {
               <div className="w-16 h-16 mx-auto bg-primary dark:bg-secondary rounded-full flex items-center justify-center mb-4">
                 <span className="text-white dark:text-gray-900 text-2xl font-bold">2</span>
               </div>
-              <h3 className="font-serif text-xl font-bold mb-3 text-primary dark:text-secondary">Agende pelo WhatsApp</h3>
+              <h3 className="font-sans text-xl font-bold mb-3 text-primary dark:text-secondary">Agende pelo WhatsApp</h3>
               <p className="text-muted-foreground">
                 Entre em contato para verificar disponibilidade e agendar seu horário.
               </p>
@@ -240,7 +256,7 @@ export default function Home() {
               <div className="w-16 h-16 mx-auto bg-primary dark:bg-secondary rounded-full flex items-center justify-center mb-4">
                 <span className="text-white dark:text-gray-900 text-2xl font-bold">3</span>
               </div>
-              <h3 className="font-serif text-xl font-bold mb-3 text-primary dark:text-secondary">Receba seu Atendimento</h3>
+              <h3 className="font-sans text-xl font-bold mb-3 text-primary dark:text-secondary">Receba seu Atendimento</h3>
               <p className="text-muted-foreground">
                 No horário marcado, você receberá o atendimento personalizado via WhatsApp.
               </p>
