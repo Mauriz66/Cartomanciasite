@@ -2,7 +2,6 @@ import { Link } from "wouter";
 import { ServiceCard } from "@/components/ui/service-card";
 import { TestimonialCard } from "@/components/ui/testimonial-card";
 import { Faq } from "@/components/ui/faq";
-import { tarotServices } from "@/data/services";
 import { testimonials } from "@/data/testimonials";
 import { faqs } from "@/data/faqs";
 import { whatsappLinks } from "@/data/whatsapp-links";

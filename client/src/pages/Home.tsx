@@ -2,7 +2,7 @@ import { Link } from "wouter";
 import { ServiceCard } from "@/components/ui/service-card";
 import { TestimonialCard } from "@/components/ui/testimonial-card";
 import { BenefitItem } from "@/components/ui/benefit-item";
-import { TarotGallery } from "@/components/ui/tarot-gallery";
+import { BaralhoCiganoGallery } from "@/components/ui/baralho-cigano-gallery";
 import { services } from "@/data/services";
 import { testimonials } from "@/data/testimonials";
 import { whatsappLinks } from "@/data/whatsapp-links";
