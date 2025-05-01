@@ -3,49 +3,42 @@ export const testimonials = {
   // Homepage testimonials
   home: [
     {
-      content: "As leituras são sempre precisas e me ajudam a encontrar clareza nos momentos de dúvida. O plano de assinatura vale cada centavo pelo acesso prioritário.",
-      author: "Mariana S.",
-      role: "Assinante há 8 meses"
+      content: "As leituras do baralho cigano me ajudaram a tomar decisões importantes na minha vida. A clareza e precisão são impressionantes!",
+      author: "Maria Silva",
+      role: "Cliente"
     },
     {
-      content: "A terapia Thetahealing transformou minha relação com questões do passado. O atendimento online é tão eficaz quanto presencial. Recomendo fortemente.",
-      author: "Carlos R.",
-      role: "Cliente de terapias"
-    },
-    {
-      content: "A leitura de aniversário é incrível! Me dá uma visão completa do ano e me ajuda a me preparar para os desafios. Faço todos os anos.",
-      author: "Patricia L.",
-      role: "Cliente recorrente"
+      content: "O Plano Conexão Cigana mudou minha vida. Ter acesso a leituras regulares me ajuda a manter o foco e a direção.",
+      author: "João Santos",
+      role: "Assinante"
     }
   ],
   
   // Plano Conexão Cigana testimonials
   planoConexao: [
     {
-      content: "Assinar o Conexão Cigana foi a melhor decisão. As 5 perguntas mensais me ajudam a manter o foco e os descontos nas consultas maiores valem muito a pena.",
-      author: "Amanda T.",
-      role: "Assinante há 11 meses"
+      content: "O plano mensal é um investimento que vale muito a pena. Além do desconto, ter acesso garantido às leituras é um diferencial.",
+      author: "Patrícia Lima",
+      role: "Assinante"
     },
     {
-      content: "O app exclusivo para assinantes é incrível! Os vídeos semanais e os rituais mensais têm me ajudado muito na minha evolução espiritual.",
-      author: "Roberto M.",
-      role: "Assinante há 5 meses"
+      content: "Ser assinante do Plano Conexão Cigana me permite ter orientação regular, o que tem sido fundamental para meu crescimento pessoal.",
+      author: "Roberto Alves",
+      role: "Assinante"
     }
   ],
   
-  // Tarot testimonials
-  tarot: [
+  // Baralho Cigano testimonials
+  baralhoCigano: [
     {
-      content: "O jogo de 5 cartas me deu exatamente a clareza que eu precisava para tomar uma decisão importante no trabalho. Preciso e direto ao ponto.",
-      author: "Marcos V."
+      content: "A leitura com 5 cartas foi exatamente o que eu precisava para tomar uma decisão difícil no trabalho. A orientação foi clara e precisa.",
+      author: "Ana Oliveira",
+      role: "Cliente"
     },
     {
-      content: "Optei pelo jogo de 10 cartas para entender melhor minha vida amorosa. A profundidade da análise me surpreendeu e me ajudou a ver padrões que eu repetia.",
-      author: "Juliana P."
-    },
-    {
-      content: "Faço leituras regularmente e sempre saio com insights valiosos. É incrível como as cartas revelam exatamente o que preciso ouvir no momento.",
-      author: "Paula R."
+      content: "O jogo de 10 cartas me deu uma visão completa da minha situação amorosa. As orientações foram fundamentais para eu seguir em frente.",
+      author: "Carlos Mendes",
+      role: "Cliente"
     }
   ],
   

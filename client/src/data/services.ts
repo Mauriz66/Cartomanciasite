@@ -1,58 +1,38 @@
 // Services data for homepage and other sections
 export const services = [
   {
-    title: "Jogos de Tarot",
-    description: "Consultas que revelam insights para momentos específicos ou questões pontuais",
-    price: 107,
-    image: "https://images.unsplash.com/photo-1514513256673-87bd6a3413a4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=300&q=80",
-    path: "/tarot"
+    title: "Jogos de Baralho Cigano",
+    description: "Leituras oraculares com o baralho cigano para orientação e clareza",
+    price: "A partir de R$107,00",
+    image: "https://images.unsplash.com/photo-1534308143481-c55f00be8bd7?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=400&q=80",
+    path: "/baralho-cigano"
   },
   {
-    title: "Leituras de Ciclos",
-    description: "Análise profunda dos períodos mensais ou anuais para melhor planejamento",
-    price: 107,
-    image: "https://images.unsplash.com/photo-1620283085439-39620a1e621b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=300&q=80",
-    path: "/leituras"
-  },
-  {
-    title: "Terapias Energéticas",
-    description: "Tratamentos que equilibram energias e promovem bem-estar interior",
-    price: 250,
-    image: "https://images.unsplash.com/photo-1600618528240-fb9fc964b853?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=300&q=80",
-    path: "/terapias"
+    title: "Plano Conexão Cigana",
+    description: "Plano mensal com benefícios exclusivos e descontos",
+    price: "R$49,90/mês",
+    image: "https://images.unsplash.com/photo-1534308143481-c55f00be8bd7?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=400&q=80",
+    path: "/plano-conexao"
   }
 ];
 
 // Services details for individual pages
-export const tarotServices = {
-  jogoDe5Cartas: {
+export const baralhoCiganoServices = [
+  {
     title: "Jogo de 5 Cartas",
-    price: 107,
-    discountPrice: 96.30,
-    duration: "35 minutos",
-    description: "Consulta focada em questões específicas com análise de 5 aspectos principais.",
-    features: [
-      "5 aspectos específicos da sua questão",
-      "Tendências para o futuro próximo",
-      "Energias ao seu redor",
-      "Conselhos práticos"
-    ]
+    description: "Leitura detalhada com 5 cartas do baralho cigano para responder uma questão específica",
+    price: "R$107,00",
+    image: "https://images.unsplash.com/photo-1534308143481-c55f00be8bd7?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=400&q=80",
+    path: "/baralho-cigano/5-cartas"
   },
-  jogoDe10Cartas: {
+  {
     title: "Jogo de 10 Cartas",
-    price: 170,
-    discountPrice: 153,
-    duration: "1 hora",
-    description: "Análise completa e detalhada para uma visão abrangente da situação.",
-    features: [
-      "10 aspectos detalhados da sua situação",
-      "Análise de tendências a médio prazo",
-      "Padrões energéticos mais profundos",
-      "Bloqueios e potenciais",
-      "Orientações detalhadas para os próximos passos"
-    ]
+    description: "Leitura completa com 10 cartas do baralho cigano para uma visão mais ampla da situação",
+    price: "R$170,00",
+    image: "https://images.unsplash.com/photo-1534308143481-c55f00be8bd7?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=400&q=80",
+    path: "/baralho-cigano/10-cartas"
   }
-};
+];
 
 export const leituraServices = {
   leituraMensal: {

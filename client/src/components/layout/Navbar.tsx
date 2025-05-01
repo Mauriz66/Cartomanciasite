@@ -5,14 +5,11 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Moon, Sun, Menu } from "lucide-react";
 
-const menuItems = [
+const navigation = [
   { path: "/", label: "Início" },
-  { path: "/plano-conexao", label: "Conexão Cigana" },
-  { path: "/tarot", label: "Tarot" },
-  { path: "/leituras", label: "Leituras" },
-  { path: "/terapias", label: "Terapias" },
-  { path: "/sobre", label: "Sobre" },
-  { path: "/contato", label: "Contato" },
+  { path: "/baralho-cigano", label: "Baralho Cigano" },
+  { path: "/plano-conexao", label: "Plano Conexão" },
+  { path: "/sobre", label: "Sobre" }
 ];
 
 export function Navbar() {
@@ -77,7 +74,7 @@ export function Navbar() {
 
             {/* Desktop Menu */}
             <div className="hidden lg:flex items-center space-x-6">
-              {menuItems.map((item) => (
+              {navigation.map((item) => (
                 <Link key={item.path} href={item.path}>
                   <a
                     className={cn(
@@ -100,7 +97,7 @@ export function Navbar() {
       {mobileMenuOpen && (
         <div className="lg:hidden bg-background dark:bg-muted shadow-lg p-4 absolute w-full">
           <div className="flex flex-col space-y-3">
-            {menuItems.map((item) => (
+            {navigation.map((item) => (
               <Link key={item.path} href={item.path}>
                 <a
                   className={cn(

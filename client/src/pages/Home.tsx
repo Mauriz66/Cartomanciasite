@@ -211,18 +211,6 @@ export default function Home() {
           </div>
         </div>
         
-        {/* Tarot Gallery Section */}
-        <div className="mt-20">
-          <h2 className="font-sans text-3xl font-bold mb-6 text-center text-primary dark:text-secondary">
-            Conheça o Universo do Tarô
-          </h2>
-          <p className="text-lg text-center max-w-3xl mx-auto mb-8 text-muted-foreground">
-            As cartas revelam caminhos e trazem clareza para questões importantes em sua vida
-          </p>
-          
-          <TarotGallery />
-        </div>
-        
         {/* How It Works Section */}
         <div className="mt-20">
           <h2 className="font-sans text-3xl font-bold mb-10 text-center text-primary dark:text-secondary">

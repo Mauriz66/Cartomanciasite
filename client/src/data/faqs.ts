@@ -8,40 +8,28 @@ export const faqs = {
   // FAQs for Plano Conexão Cigana
   planoConexao: [
     {
-      question: "Como funciona o plano de assinatura?",
-      answer: "O plano Conexão Cigana é uma assinatura mensal no valor de R$49,90. Ao assinar, você recebe automaticamente 5 perguntas mensais, desconto de 10% em todos os serviços, atendimento prioritário e acesso ao app exclusivo."
+      question: "Como funciona o Plano Conexão Cigana?",
+      answer: "O Plano Conexão Cigana é uma assinatura mensal que oferece 5 perguntas garantidas por mês, 10% de desconto em todos os serviços e prioridade na fila de atendimento."
     },
     {
-      question: "As perguntas mensais acumulam para o próximo mês?",
-      answer: "Não, as 5 perguntas mensais não são cumulativas. Recomendamos que utilize todas dentro do mês vigente para aproveitar ao máximo seu plano."
-    },
-    {
-      question: "Como funciona o app exclusivo para assinantes?",
-      answer: "Após assinar o plano, você receberá um link para download do aplicativo e um código de ativação. No app, terá acesso a um calendário interativo com dicas diárias, vídeos semanais com orientações espirituais e um ritual mensal exclusivo."
-    },
-    {
-      question: "Posso cancelar a assinatura quando quiser?",
-      answer: "Sim, você pode cancelar sua assinatura a qualquer momento. O acesso aos benefícios continuará ativo até o final do período já pago."
+      question: "Posso cancelar o plano a qualquer momento?",
+      answer: "Sim, você pode cancelar o plano a qualquer momento. O cancelamento será efetivo no final do período atual de cobrança."
     }
   ],
   
-  // FAQs for Tarot
-  tarot: [
+  // FAQs for Baralho Cigano
+  baralhoCigano: [
     {
-      question: "Qual a diferença entre o jogo de 5 e o de 10 cartas?",
-      answer: "O jogo de 5 cartas é mais objetivo e focado em uma questão específica, ideal para decisões pontuais. Já o jogo de 10 cartas oferece uma análise mais profunda e abrangente, explorando diferentes aspectos da sua vida ou situação."
+      question: "Como me preparar para uma consulta de baralho cigano?",
+      answer: "Recomendamos que você tenha suas questões específicas em mente antes da consulta. Um ambiente tranquilo e um momento de concentração também ajudam a obter melhores resultados."
     },
     {
-      question: "Como me preparar para uma consulta de tarot?",
-      answer: "Para aproveitar ao máximo sua consulta, reserve um momento tranquilo onde não será interrompido. Prepare suas perguntas com antecedência, sendo o mais específico possível. Mantenha a mente aberta para receber as orientações."
+      question: "Qual a diferença entre o jogo de 5 e 10 cartas?",
+      answer: "O jogo de 5 cartas é ideal para questões específicas e objetivas, enquanto o jogo de 10 cartas oferece uma análise mais completa e abrangente da situação."
     },
     {
-      question: "Com que frequência posso fazer consultas?",
-      answer: "Recomendo um intervalo mínimo de 3 semanas entre consultas sobre o mesmo tema, para dar tempo às energias se manifestarem. Para temas diferentes, não há restrição, mas é importante não se tornar dependente das leituras."
-    },
-    {
-      question: "As consultas online têm a mesma eficácia?",
-      answer: "Sim, as consultas online têm a mesma eficácia que as presenciais. A energia não está limitada pelo espaço físico, e a conexão espiritual acontece independentemente da distância."
+      question: "As consultas são realizadas online?",
+      answer: "Sim, todas as consultas são realizadas via WhatsApp, com o mesmo poder e precisão de uma consulta presencial."
     }
   ],
   
@@ -87,6 +75,14 @@ export const faqs = {
   
   // General FAQs
   gerais: [
+    {
+      question: "Como agendar uma consulta?",
+      answer: "Você pode agendar uma consulta entrando em contato pelo WhatsApp. Nossa equipe irá ajudar você a escolher o melhor horário disponível."
+    },
+    {
+      question: "Qual a duração de uma consulta?",
+      answer: "O jogo de 5 cartas tem duração média de 35 minutos, enquanto o jogo de 10 cartas dura aproximadamente 1 hora."
+    },
     {
       question: "Como são realizados os atendimentos?",
       answer: "Todos os atendimentos são realizados online via WhatsApp (áudio ou texto para leituras) ou chamada de vídeo (para terapias energéticas). Essa modalidade oferece conforto, praticidade e a mesma eficácia dos atendimentos presenciais."
