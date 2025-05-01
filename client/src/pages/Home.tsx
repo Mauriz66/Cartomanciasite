@@ -113,7 +113,7 @@ export default function Home() {
             </div>
             
             <div className="md:w-1/2 bg-card/80 dark:bg-card rounded-lg shadow-md p-6">
-              <h3 className="font-sans text-xl font-bold mb-4 text-primary dark:text-secondary">
+              <h3 className="font-serif text-xl font-bold mb-4 text-primary dark:text-secondary">
                 Economia para Assinantes
               </h3>
               <div className="overflow-x-auto">
@@ -178,7 +178,7 @@ export default function Home() {
             </div>
           </div>
           <div className="md:w-2/3">
-            <h2 className="font-sans text-3xl font-bold mb-4 text-primary dark:text-secondary">Sobre Mim</h2>
+            <h2 className="font-serif text-3xl font-bold mb-4 text-primary dark:text-secondary">Sobre Mim</h2>
             <p className="text-lg mb-6 text-muted-foreground">
               Minha jornada espiritual começou há mais de 10 anos, quando descobri minha conexão com os oráculos 
               e a energia universal. Desde então, dedico-me a aprofundar conhecimentos em diversas práticas 
@@ -198,7 +198,7 @@ export default function Home() {
         
         {/* Testimonials Section */}
         <div className="mt-16">
-          <h2 className="font-sans text-3xl font-bold mb-10 text-center text-primary dark:text-secondary">
+          <h2 className="font-serif text-3xl font-bold mb-10 text-center text-primary dark:text-secondary">
             O Que Dizem Sobre Meu Trabalho
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -215,7 +215,7 @@ export default function Home() {
         
         {/* How It Works Section */}
         <div className="mt-20">
-          <h2 className="font-sans text-3xl font-bold mb-10 text-center text-primary dark:text-secondary">
+          <h2 className="font-serif text-3xl font-bold mb-10 text-center text-primary dark:text-secondary">
             Como Funciona o Atendimento
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -224,7 +224,7 @@ export default function Home() {
               <div className="w-16 h-16 mx-auto bg-primary dark:bg-secondary rounded-full flex items-center justify-center mb-4">
                 <span className="text-white dark:text-gray-900 text-2xl font-bold">1</span>
               </div>
-              <h3 className="font-sans text-xl font-bold mb-3 text-primary dark:text-secondary">Escolha o Serviço</h3>
+              <h3 className="font-serif text-xl font-bold mb-3 text-primary dark:text-secondary">Escolha o Serviço</h3>
               <p className="text-muted-foreground">
                 Selecione a consulta ou terapia que melhor atende suas necessidades atuais.
               </p>
@@ -235,7 +235,7 @@ export default function Home() {
               <div className="w-16 h-16 mx-auto bg-primary dark:bg-secondary rounded-full flex items-center justify-center mb-4">
                 <span className="text-white dark:text-gray-900 text-2xl font-bold">2</span>
               </div>
-              <h3 className="font-sans text-xl font-bold mb-3 text-primary dark:text-secondary">Agende pelo WhatsApp</h3>
+              <h3 className="font-serif text-xl font-bold mb-3 text-primary dark:text-secondary">Agende pelo WhatsApp</h3>
               <p className="text-muted-foreground">
                 Entre em contato para verificar disponibilidade e agendar seu horário.
               </p>
@@ -246,7 +246,7 @@ export default function Home() {
               <div className="w-16 h-16 mx-auto bg-primary dark:bg-secondary rounded-full flex items-center justify-center mb-4">
                 <span className="text-white dark:text-gray-900 text-2xl font-bold">3</span>
               </div>
-              <h3 className="font-sans text-xl font-bold mb-3 text-primary dark:text-secondary">Receba seu Atendimento</h3>
+              <h3 className="font-serif text-xl font-bold mb-3 text-primary dark:text-secondary">Receba seu Atendimento</h3>
               <p className="text-muted-foreground">
                 No horário marcado, você receberá o atendimento personalizado via WhatsApp.
               </p>
@@ -256,7 +256,7 @@ export default function Home() {
         
         {/* Call to Action */}
         <div className="mt-20 bg-gradient-to-br from-primary to-accent rounded-2xl p-10 text-center text-white">
-          <h2 className="font-sans text-3xl font-bold mb-4">Comece Sua Jornada Espiritual Hoje</h2>
+          <h2 className="font-serif text-3xl font-bold mb-4">Comece Sua Jornada Espiritual Hoje</h2>
           <p className="text-lg mb-8 max-w-3xl mx-auto">
             Escolha o serviço que melhor atende às suas necessidades atuais ou assine o plano 
             Conexão Cigana para benefícios exclusivos.

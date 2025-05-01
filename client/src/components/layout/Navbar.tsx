@@ -41,9 +41,11 @@ export function Navbar() {
     >
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
-          <Link href="/" className="text-xl font-sans font-bold text-primary dark:text-secondary">
-            <i className="fas fa-moon text-secondary dark:text-accent mr-2"></i>
-            Terapias Oraculares
+          <Link href="/">
+            <a className="text-xl font-sans font-bold text-primary dark:text-secondary">
+              <i className="fas fa-moon text-secondary dark:text-accent mr-2"></i>
+              Terapias Oraculares
+            </a>
           </Link>
 
           <div className="flex items-center space-x-4">
