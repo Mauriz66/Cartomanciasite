@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { 
   Carousel,
   CarouselContent,
@@ -7,13 +6,13 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-// Importando as imagens
-import image1 from "@/assets/images/image_fx (4).jpg";
-import image2 from "@/assets/images/image_fx (5).jpg";
-import image3 from "@/assets/images/image_fx (6).jpg";
-import image4 from "@/assets/images/image_fx (7).jpg";
-import image5 from "@/assets/images/image_fx (8).jpg";
-import image6 from "@/assets/images/image_fx (9).jpg";
+// Importando as imagens com sintaxe para evitar problemas com espaços no nome do arquivo
+const image1 = new URL("../../assets/images/image_fx (4).jpg", import.meta.url).href;
+const image2 = new URL("../../assets/images/image_fx (5).jpg", import.meta.url).href;
+const image3 = new URL("../../assets/images/image_fx (6).jpg", import.meta.url).href;
+const image4 = new URL("../../assets/images/image_fx (7).jpg", import.meta.url).href;
+const image5 = new URL("../../assets/images/image_fx (8).jpg", import.meta.url).href;
+const image6 = new URL("../../assets/images/image_fx (9).jpg", import.meta.url).href;
 
 const tarotImages = [
   { src: image1, alt: "Tarô com cristais e elementos místicos" },

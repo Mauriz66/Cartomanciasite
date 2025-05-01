@@ -7,8 +7,8 @@ import { services } from "@/data/services";
 import { testimonials } from "@/data/testimonials";
 import { whatsappLinks } from "@/data/whatsapp-links";
 
-// Imagem para o banner
-import bannerImage from "@/assets/images/image_fx (8).jpg";
+// Imagem para o banner usando URL para evitar problemas com espaços no nome do arquivo
+const bannerImage = new URL("../assets/images/image_fx (8).jpg", import.meta.url).href;
 
 export default function Home() {
   return (
@@ -196,7 +196,7 @@ export default function Home() {
         
         {/* Testimonials Section */}
         <div className="mt-16">
-          <h2 className="font-serif text-3xl font-bold mb-10 text-center text-primary dark:text-secondary">
+          <h2 className="font-sans text-3xl font-bold mb-10 text-center text-primary dark:text-secondary">
             O Que Dizem Sobre Meu Trabalho
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -266,7 +266,7 @@ export default function Home() {
         
         {/* Call to Action */}
         <div className="mt-20 bg-gradient-to-br from-primary to-accent rounded-2xl p-10 text-center text-white">
-          <h2 className="font-serif text-3xl font-bold mb-4">Comece Sua Jornada Espiritual Hoje</h2>
+          <h2 className="font-sans text-3xl font-bold mb-4">Comece Sua Jornada Espiritual Hoje</h2>
           <p className="text-lg mb-8 max-w-3xl mx-auto">
             Escolha o serviço que melhor atende às suas necessidades atuais ou assine o plano 
             Conexão Cigana para benefícios exclusivos.
