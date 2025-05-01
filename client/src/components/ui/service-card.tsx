@@ -4,7 +4,7 @@ import { Link } from "wouter";
 export interface ServiceCardProps {
   title: string;
   description: string;
-  price: number;
+  price: string;
   image: string;
   path: string;
   className?: string;
@@ -35,7 +35,7 @@ export function ServiceCard({
         <div className="flex justify-between items-center mb-4">
           <div>
             <span className="text-sm text-muted-foreground">A partir de</span>
-            <p className="text-xl font-bold text-primary dark:text-secondary">R${price}</p>
+            <p className="text-xl font-bold text-primary dark:text-secondary">{price}</p>
           </div>
           <div className="discount-badge">
             -10% ASSINANTES

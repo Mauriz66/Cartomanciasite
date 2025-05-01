@@ -7,8 +7,8 @@ import { services } from "@/data/services";
 import { testimonials } from "@/data/testimonials";
 import { whatsappLinks } from "@/data/whatsapp-links";
 
-// Imagem para o banner usando URL para evitar problemas com espaços no nome do arquivo
-const bannerImage = new URL("../assets/images/image_fx (8).jpg", import.meta.url).href;
+// Imagem para o banner
+const bannerImage = "/assets/images/image_fx (8).jpg";
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <img 
             src={bannerImage} 
-            alt="Consulta de tarô com velas" 
+            alt="Consulta de baralho cigano com velas" 
             className="w-full h-full object-cover opacity-40"
           />
         </div>
