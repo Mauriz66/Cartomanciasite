@@ -27,6 +27,8 @@ function Router() {
       <div className="pt-16 min-h-screen">
         <Route path="/" component={Home} />
         <Route path="/baralho-cigano" component={BaralhoCigano} />
+        <Route path="/baralho-cigano/5-cartas" component={BaralhoCigano} />
+        <Route path="/baralho-cigano/10-cartas" component={BaralhoCigano} />
         <Route path="/plano-conexao" component={PlanoConexao} />
         <Route path="/sobre" component={Sobre} />
         <Route path="/contato" component={Contato} />
