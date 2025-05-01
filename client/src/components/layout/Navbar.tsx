@@ -76,17 +76,17 @@ export function Navbar() {
             {/* Desktop Menu */}
             <div className="hidden lg:flex items-center space-x-6">
               {menuItems.map((item) => (
-                <Link 
-                  key={item.path} 
-                  href={item.path}
-                  className={cn(
-                    "transition-colors hover:text-accent",
-                    location === item.path
-                      ? "text-accent dark:text-accent font-medium"
-                      : "text-primary dark:text-secondary"
-                  )}
-                >
-                  {item.label}
+                <Link key={item.path} href={item.path}>
+                  <a
+                    className={cn(
+                      "transition-colors hover:text-accent",
+                      location === item.path
+                        ? "text-accent dark:text-accent font-medium"
+                        : "text-primary dark:text-secondary"
+                    )}
+                  >
+                    {item.label}
+                  </a>
                 </Link>
               ))}
             </div>
@@ -99,18 +99,18 @@ export function Navbar() {
         <div className="lg:hidden bg-background dark:bg-muted shadow-lg p-4 absolute w-full">
           <div className="flex flex-col space-y-3">
             {menuItems.map((item) => (
-              <Link 
-                key={item.path} 
-                href={item.path}
-                className={cn(
-                  "px-4 py-2 rounded transition-colors",
-                  location === item.path
-                    ? "bg-primary/10 dark:bg-primary/20 text-primary dark:text-secondary font-medium"
-                    : "text-primary dark:text-secondary hover:bg-muted"
-                )}
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                {item.label}
+              <Link key={item.path} href={item.path}>
+                <a
+                  className={cn(
+                    "px-4 py-2 rounded transition-colors",
+                    location === item.path
+                      ? "bg-primary/10 dark:bg-primary/20 text-primary dark:text-secondary font-medium"
+                      : "text-primary dark:text-secondary hover:bg-muted"
+                  )}
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  {item.label}
+                </a>
               </Link>
             ))}
           </div>

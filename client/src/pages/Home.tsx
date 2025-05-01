@@ -27,8 +27,10 @@ export default function Home() {
             Terapias energéticas e leituras oraculares para guiar sua jornada pessoal e espiritual
           </p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-            <Link href="/plano-conexao" className="bg-secondary hover:bg-secondary/90 text-gray-900 font-semibold px-6 py-3 rounded-lg transition-all shadow-lg">
-              Conheça o Plano Conexão Cigana
+            <Link href="/plano-conexao">
+              <a className="bg-secondary hover:bg-secondary/90 text-gray-900 font-semibold px-6 py-3 rounded-lg transition-all shadow-lg">
+                Conheça o Plano Conexão Cigana
+              </a>
             </Link>
             <a href="#servicos" className="bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white font-semibold px-6 py-3 rounded-lg transition-all">
               Ver Todos os Serviços
@@ -153,12 +155,11 @@ export default function Home() {
                 </table>
               </div>
               <div className="mt-6">
-                <Link 
-                  href="/plano-conexao"
-                  className="text-primary dark:text-secondary hover:underline flex items-center"
-                >
-                  <span>Ver todos os benefícios</span>
-                  <i className="fas fa-arrow-right ml-2"></i>
+                <Link href="/plano-conexao">
+                  <a className="text-primary dark:text-secondary hover:underline flex items-center">
+                    <span>Ver todos os benefícios</span>
+                    <i className="fas fa-arrow-right ml-2"></i>
+                  </a>
                 </Link>
               </div>
             </div>
@@ -186,12 +187,11 @@ export default function Home() {
             <p className="text-xl font-dancing mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent dark:from-secondary dark:to-secondary">
               "Minha missão é iluminar caminhos e trazer clareza através da conexão espiritual"
             </p>
-            <Link 
-              href="/sobre"
-              className="inline-flex items-center text-primary dark:text-secondary hover:text-accent dark:hover:text-accent transition-colors"
-            >
-              <span>Conheça minha história completa</span>
-              <i className="fas fa-arrow-right ml-2"></i>
+            <Link href="/sobre">
+              <a className="inline-flex items-center text-primary dark:text-secondary hover:text-accent dark:hover:text-accent transition-colors">
+                <span>Conheça minha história completa</span>
+                <i className="fas fa-arrow-right ml-2"></i>
+              </a>
             </Link>
           </div>
         </div>
@@ -262,11 +262,10 @@ export default function Home() {
             Conexão Cigana para benefícios exclusivos.
           </p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-            <Link 
-              href="/plano-conexao"
-              className="bg-secondary hover:bg-secondary/90 text-gray-900 font-semibold px-6 py-3 rounded-lg transition-all shadow-lg"
-            >
-              Assinar Plano Conexão Cigana
+            <Link href="/plano-conexao">
+              <a className="bg-secondary hover:bg-secondary/90 text-gray-900 font-semibold px-6 py-3 rounded-lg transition-all shadow-lg">
+                Assinar Plano Conexão Cigana
+              </a>
             </Link>
             <a 
               href={whatsappLinks.contatoGeral}
