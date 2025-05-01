@@ -2,6 +2,7 @@ import { Link } from "wouter";
 import { ServiceCard } from "@/components/ui/service-card";
 import { TestimonialCard } from "@/components/ui/testimonial-card";
 import { BenefitItem } from "@/components/ui/benefit-item";
+import { TarotGallery } from "@/components/ui/tarot-gallery";
 import { services } from "@/data/services";
 import { testimonials } from "@/data/testimonials";
 import { whatsappLinks } from "@/data/whatsapp-links";
@@ -41,12 +42,17 @@ export default function Home() {
       {/* Intro Section */}
       <div className="container mx-auto px-6 py-16">
         <div className="text-center mb-12">
-          <h2 className="font-serif text-3xl font-bold mb-4 text-primary dark:text-secondary">
+          <h2 className="font-sans text-3xl font-bold mb-4 text-primary dark:text-secondary">
             Encontre Equilíbrio e Direção
           </h2>
           <p className="text-lg max-w-3xl mx-auto text-muted-foreground">
             Todos os atendimentos são realizados online via WhatsApp, trazendo conforto e praticidade para sua jornada espiritual
           </p>
+        </div>
+        
+        {/* Tarot Gallery */}
+        <div className="mb-16">
+          <TarotGallery className="my-10" />
         </div>
 
         {/* Services Overview */}
