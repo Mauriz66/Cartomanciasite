@@ -7,12 +7,12 @@ interface TarotGalleryProps {
 
 export function TarotGallery({ className }: TarotGalleryProps) {
   const images = [
-    { src: "/src/assets/images/tarot1.jpg", alt: "Tarot cards with crystals" },
-    { src: "/src/assets/images/tarot2.jpg", alt: "Ethereal tarot spread with soft lighting" },
-    { src: "/src/assets/images/tarot3.jpg", alt: "Purple and gold tarot cards with teacup" },
-    { src: "/src/assets/images/tarot4.jpg", alt: "Tarot cards with gold chain decoration" },
-    { src: "/src/assets/images/tarot5.jpg", alt: "Tarot reading with candles" },
-    { src: "/src/assets/images/tarot6.jpg", alt: "Detailed tarot spread with multiple cards" },
+    { src: "/images/tarot1.jpg", alt: "Tarot cards with crystals" },
+    { src: "/images/tarot2.jpg", alt: "Ethereal tarot spread with soft lighting" },
+    { src: "/images/tarot3.jpg", alt: "Purple and gold tarot cards with teacup" },
+    { src: "/images/tarot4.jpg", alt: "Tarot cards with gold chain decoration" },
+    { src: "/images/tarot5.jpg", alt: "Tarot reading with candles" },
+    { src: "/images/tarot6.jpg", alt: "Detailed tarot spread with multiple cards" },
   ];
 
   return (

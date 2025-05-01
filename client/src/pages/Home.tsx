@@ -20,7 +20,7 @@ export default function Home() {
           />
         </div>
         <div className="container mx-auto px-6 z-10 text-center">
-          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
+          <h1 className="font-sans text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
             Descubra seu Caminho Espiritual
           </h1>
           <p className="text-xl md:text-2xl text-white/90 font-light mb-8 max-w-2xl mx-auto">
@@ -73,7 +73,7 @@ export default function Home() {
         <div className="mt-20 gradient-primary-light rounded-2xl p-8">
           <div className="flex flex-col md:flex-row">
             <div className="md:w-1/2 mb-6 md:mb-0 md:pr-8">
-              <h2 className="font-serif text-3xl font-bold mb-4 text-primary dark:text-secondary">
+              <h2 className="font-sans text-3xl font-bold mb-4 text-primary dark:text-secondary">
                 <i className="fas fa-star text-secondary"></i> Plano Conexão Cigana
               </h2>
               <p className="text-lg mb-6 text-muted-foreground">
