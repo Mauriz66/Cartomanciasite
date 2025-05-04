@@ -13,8 +13,8 @@ import LeituraAniversario from "@/pages/leitura-aniversario";
 import Thetahealing from "@/pages/thetahealing";
 import Reiki from "@/pages/reiki";
 import PlanoConexao from "@/pages/plano-conexao";
-import Sobre from "@/pages/Sobre";
-import Contato from "@/pages/Contato";
+// import Sobre from "@/pages/sobre";
+// import Contato from "@/pages/contato";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
@@ -40,8 +40,8 @@ function Router() {
         <Route path="/thetahealing" component={Thetahealing} />
         <Route path="/reiki" component={Reiki} />
         <Route path="/plano-conexao" component={PlanoConexao} />
-        <Route path="/sobre" component={Sobre} />
-        <Route path="/contato" component={Contato} />
+        {/* <Route path="/sobre" component={Sobre} /> */}
+        {/* <Route path="/contato" component={Contato} /> */}
         <Route component={NotFound} />
       </div>
       <Footer />
