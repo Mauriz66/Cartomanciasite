@@ -59,10 +59,13 @@ export default function Home() {
             <ServiceCard
               key={index}
               title={service.title}
-              description={service.description}
+              subtitle={service.subtitle}
               price={service.price}
+              memberPrice={service.memberPrice}
+              badge={service.badge}
               image={service.image}
               path={service.path}
+              extraText={service.extraText}
             />
           ))}
         </div>
