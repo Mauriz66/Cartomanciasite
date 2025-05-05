@@ -55,19 +55,29 @@ export default function Home() {
 
         {/* Services Overview */}
         <div id="servicos" className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mt-10 justify-items-center">
-          {services.map((service, index) => (
-            <ServiceCard
-              key={index}
-              title={service.title}
-              subtitle={service.subtitle}
-              price={service.price}
-              memberPrice={service.memberPrice}
-              badge={service.badge}
-              image={service.image}
-              path={service.path}
-              extraText={service.extraText}
-            />
-          ))}
+          <ServiceCard
+            title="Jogos de Baralho Cigano"
+            subtitle="Leituras e jogos para clareza e orientação."
+            price="A partir de R$107"
+            memberPrice="10% de desconto para assinantes"
+            image="/assets/images/image_fx (5).jpg"
+            path="/baralho-cigano"
+          />
+          <ServiceCard
+            title="Terapias Energéticas"
+            subtitle="Reiki e Thetahealing para equilíbrio e transformação."
+            price="A partir de R$250"
+            memberPrice="10% de desconto para assinantes"
+            image="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=800&q=80"
+            path="/terapias-energeticas"
+          />
+        </div>
+        <div className="flex justify-center mt-8">
+          <Link href="/todos-os-servicos">
+            <a className="bg-secondary hover:bg-secondary/90 text-gray-900 font-semibold px-6 py-3 rounded-lg transition-all shadow-lg">
+              Ver Todos os Serviços
+            </a>
+          </Link>
         </div>
 
         {/* Connection Plan Section */}

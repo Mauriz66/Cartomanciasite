@@ -43,10 +43,6 @@ export function ServiceCard({
             {badge}
           </div>
         )}
-        {/* Ícone decorativo */}
-        <div className="absolute left-4 -bottom-5 bg-[#ffe36e] text-[#241a3e] rounded-full w-9 h-9 flex items-center justify-center text-lg border-4 border-[#241a3e] z-10">
-          <i className="fas fa-fan"></i>
-        </div>
       </div>
       <div className="p-5 flex flex-col flex-1">
         <h3 className="text-white text-lg font-bold mb-1 border-b-2 border-[#ffe36e] inline-block pb-1">{title}</h3>
