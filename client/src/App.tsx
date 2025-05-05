@@ -1,4 +1,4 @@
-import { Route, useLocation, Switch } from "wouter";
+import { Route, useLocation } from "wouter";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
@@ -13,8 +13,7 @@ import LeituraAniversario from "@/pages/leitura-aniversario";
 import Thetahealing from "@/pages/thetahealing";
 import Reiki from "@/pages/reiki";
 import PlanoConexao from "@/pages/plano-conexao";
-import TerapiasEnergeticas from "@/pages/terapias-energeticas";
-import TodosOsServicos from "@/pages/todos-os-servicos";
+// import Sobre from "@/pages/sobre";
 // import Contato from "@/pages/contato";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
@@ -32,20 +31,18 @@ function Router() {
     <>
       <Navbar />
       <div className="pt-16 min-h-screen">
-        <Switch>
-          <Route path="/" component={Home} />
-          <Route path="/baralho-cigano" component={BaralhoCigano} />
-          <Route path="/baralho-cigano/5-cartas" component={Jogo5Cartas} />
-          <Route path="/baralho-cigano/10-cartas" component={Jogo10Cartas} />
-          <Route path="/leitura-mensal" component={LeituraMensal} />
-          <Route path="/leitura-aniversario" component={LeituraAniversario} />
-          <Route path="/thetahealing" component={Thetahealing} />
-          <Route path="/reiki" component={Reiki} />
-          <Route path="/plano-conexao" component={PlanoConexao} />
-          <Route path="/terapias-energeticas" component={TerapiasEnergeticas} />
-          <Route path="/todos-os-servicos" component={TodosOsServicos} />
-          <Route component={NotFound} />
-        </Switch>
+        <Route path="/" component={Home} />
+        <Route path="/baralho-cigano" component={BaralhoCigano} />
+        <Route path="/baralho-cigano/5-cartas" component={Jogo5Cartas} />
+        <Route path="/baralho-cigano/10-cartas" component={Jogo10Cartas} />
+        <Route path="/leitura-mensal" component={LeituraMensal} />
+        <Route path="/leitura-aniversario" component={LeituraAniversario} />
+        <Route path="/thetahealing" component={Thetahealing} />
+        <Route path="/reiki" component={Reiki} />
+        <Route path="/plano-conexao" component={PlanoConexao} />
+        {/* <Route path="/sobre" component={Sobre} /> */}
+        {/* <Route path="/contato" component={Contato} /> */}
+        <Route component={NotFound} />
       </div>
       <Footer />
       <WhatsAppButton />

@@ -1,45 +1,9 @@
 import React from "react";
 import { Link } from "wouter";
-import { ServiceCard } from "@/components/ui/service-card";
 
 const bannerImage = "/assets/images/image_fx (5).jpg";
 const jogo5Image = "/assets/images/image_fx (7).jpg";
 const jogo10Image = "/assets/images/image_fx (4).jpg";
-
-const servicosLeituras = [
-  {
-    title: "Jogo de 5 Cartas",
-    subtitle: "Leitura objetiva para decisões rápidas e clareza no momento",
-    price: "R$107",
-    memberPrice: "R$96,30 para assinantes",
-    image: "/assets/images/image_fx (7).jpg",
-    path: "/baralho-cigano/5-cartas",
-  },
-  {
-    title: "Jogo de 10 Cartas",
-    subtitle: "Leitura completa e aprofundada da sua situação atual",
-    price: "R$170",
-    memberPrice: "R$153 para assinantes",
-    image: "/assets/images/image_fx (4).jpg",
-    path: "/baralho-cigano/10-cartas",
-  },
-  {
-    title: "Leitura Mensal",
-    subtitle: "Previsões e orientações para o mês em todas as áreas da vida",
-    price: "R$107",
-    memberPrice: "R$96,30 para assinantes",
-    image: "/assets/images/image_fx (8).jpg",
-    path: "/leitura-mensal",
-  },
-  {
-    title: "Leitura de Aniversário",
-    subtitle: "Mapa completo do seu novo ciclo pessoal e desafios do ano",
-    price: "R$170",
-    memberPrice: "R$153 para assinantes",
-    image: "/assets/images/image_fx (9).jpg",
-    path: "/leitura-aniversario",
-  },
-];
 
 export default function BaralhoCiganoPage() {
   return (
@@ -57,13 +21,6 @@ export default function BaralhoCiganoPage() {
         </div>
       </div>
 
-      {/* Cards de Leituras e Jogos */}
-      <section className="max-w-4xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
-        {servicosLeituras.map((servico, idx) => (
-          <ServiceCard key={idx} {...servico} />
-        ))}
-      </section>
-
       {/* Informações Gerais */}
       <section className="max-w-3xl mx-auto px-4 mb-10">
         <h2 className="text-xl font-semibold text-primary mb-3">Informações Gerais dos Atendimentos</h2>
@@ -73,6 +30,36 @@ export default function BaralhoCiganoPage() {
           <li>✓ Necessário estar online no horário agendado</li>
           <li>✓ Envio de fotos e áudios para consulta posterior</li>
         </ul>
+      </section>
+
+      {/* Cards de Opções */}
+      <section className="max-w-4xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+        {/* Jogo de 5 Cartas */}
+        <div className="bg-[#241a3e] border border-[#3a2d5c] rounded-2xl shadow-lg overflow-hidden flex flex-col">
+          <img src={jogo5Image} alt="Jogo de 5 Cartas" className="w-full h-40 object-cover" />
+          <div className="p-5 flex flex-col flex-1">
+            <h3 className="text-white text-lg font-bold mb-1 border-b-2 border-[#ffe36e] inline-block pb-1">Jogo de 5 Cartas</h3>
+            <p className="text-[#e0d6ff] text-sm mb-2">Valor: <span className="text-[#ffe36e] font-bold">R$107</span> <span className="text-[#3be88c] italic">(R$96,30 para assinantes)</span></p>
+            <p className="text-[#e0d6ff] text-sm mb-2">Duração: 35 minutos</p>
+            <p className="text-[#e0d6ff] text-sm mb-4">Ideal para: Questões pontuais e decisões imediatas</p>
+            <Link href="/baralho-cigano/5-cartas">
+              <a className="w-full bg-gradient-to-r from-[#ffe36e] to-[#ffb800] text-[#241a3e] font-bold rounded-full py-3 text-base mt-auto shadow hover:from-[#ffb800] hover:to-[#ffe36e] transition text-center block">Ver Detalhes</a>
+            </Link>
+          </div>
+        </div>
+        {/* Jogo de 10 Cartas */}
+        <div className="bg-[#241a3e] border border-[#3a2d5c] rounded-2xl shadow-lg overflow-hidden flex flex-col">
+          <img src={jogo10Image} alt="Jogo de 10 Cartas" className="w-full h-40 object-cover" />
+          <div className="p-5 flex flex-col flex-1">
+            <h3 className="text-white text-lg font-bold mb-1 border-b-2 border-[#ffe36e] inline-block pb-1">Jogo de 10 Cartas</h3>
+            <p className="text-[#e0d6ff] text-sm mb-2">Valor: <span className="text-[#ffe36e] font-bold">R$170</span> <span className="text-[#3be88c] italic">(R$153 para assinantes)</span></p>
+            <p className="text-[#e0d6ff] text-sm mb-2">Duração: 1 hora</p>
+            <p className="text-[#e0d6ff] text-sm mb-4">Ideal para: Análise profunda e visão completa</p>
+            <Link href="/baralho-cigano/10-cartas">
+              <a className="w-full bg-gradient-to-r from-[#ffe36e] to-[#ffb800] text-[#241a3e] font-bold rounded-full py-3 text-base mt-auto shadow hover:from-[#ffb800] hover:to-[#ffe36e] transition text-center block">Ver Detalhes</a>
+            </Link>
+          </div>
+        </div>
       </section>
 
       {/* Tabela Comparativa */}
@@ -85,8 +72,6 @@ export default function BaralhoCiganoPage() {
                 <th className="py-2 px-3">Aspecto</th>
                 <th className="py-2 px-3">Jogo 5 Cartas</th>
                 <th className="py-2 px-3">Jogo 10 Cartas</th>
-                <th className="py-2 px-3">Leitura Mensal</th>
-                <th className="py-2 px-3">Leitura de Aniversário</th>
               </tr>
             </thead>
             <tbody className="bg-[#241a3e] text-[#e0d6ff]">
@@ -94,34 +79,24 @@ export default function BaralhoCiganoPage() {
                 <td className="py-2 px-3">Duração</td>
                 <td className="py-2 px-3">35 minutos</td>
                 <td className="py-2 px-3">1 hora</td>
-                <td className="py-2 px-3">40 minutos</td>
-                <td className="py-2 px-3">1:20h</td>
               </tr>
               <tr>
                 <td className="py-2 px-3">Profundidade</td>
                 <td className="py-2 px-3">Objetiva</td>
                 <td className="py-2 px-3">Completa</td>
-                <td className="py-2 px-3">Mensal, áreas da vida</td>
-                <td className="py-2 px-3">Ciclo anual, 10 aspectos</td>
               </tr>
               <tr>
                 <td className="py-2 px-3">Aspectos analisados</td>
                 <td className="py-2 px-3">5 pontos</td>
                 <td className="py-2 px-3">10 pontos</td>
-                <td className="py-2 px-3">6 áreas</td>
-                <td className="py-2 px-3">10 aspectos</td>
               </tr>
               <tr>
                 <td className="py-2 px-3">Valor normal</td>
                 <td className="py-2 px-3">R$107</td>
                 <td className="py-2 px-3">R$170</td>
-                <td className="py-2 px-3">R$107</td>
-                <td className="py-2 px-3">R$170</td>
               </tr>
               <tr>
                 <td className="py-2 px-3">Valor assinante</td>
-                <td className="py-2 px-3">R$96,30</td>
-                <td className="py-2 px-3">R$153</td>
                 <td className="py-2 px-3">R$96,30</td>
                 <td className="py-2 px-3">R$153</td>
               </tr>

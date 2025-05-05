@@ -6,10 +6,10 @@ import { Button } from "@/components/ui/button";
 import { Moon, Sun, Menu } from "lucide-react";
 
 const navigation = [
-  { path: "/", label: "Home" },
-  { path: "/baralho-cigano", label: "Jogos de Baralho Cigano" },
-  { path: "/terapias-energeticas", label: "Terapias Energéticas" },
-  { path: "/todos-os-servicos", label: "Todos os Serviços" },
+  { path: "/", label: "Início" },
+  { path: "/baralho-cigano", label: "Baralho Cigano" },
+  { path: "/plano-conexao", label: "Plano Conexão" },
+  { path: "/sobre", label: "Sobre" }
 ];
 
 export function Navbar() {
