@@ -3,19 +3,25 @@ import { Link } from "wouter";
 
 export interface ServiceCardProps {
   title: string;
-  description: string;
+  subtitle?: string;
   price: string;
+  memberPrice?: string;
+  badge?: string;
   image: string;
   path: string;
+  extraText?: string;
   className?: string;
 }
 
 export function ServiceCard({
   title,
-  description,
+  subtitle,
   price,
+  memberPrice,
+  badge,
   image,
   path,
+  extraText,
   className,
 }: ServiceCardProps) {
   return (
@@ -31,10 +37,12 @@ export function ServiceCard({
           alt={title}
           className="w-full h-full object-cover"
         />
-        {/* Badge economia */}
-        <div className="absolute top-3 right-3 bg-[#aafad0] text-[#241a3e] font-bold text-sm rounded-full px-4 py-1 shadow z-10">
-          Economia de até R$17
-        </div>
+        {/* Badge economia customizável */}
+        {badge && (
+          <div className="absolute top-3 right-3 bg-[#aafad0] text-[#241a3e] font-bold text-sm rounded-full px-4 py-1 shadow z-10">
+            {badge}
+          </div>
+        )}
         {/* Ícone decorativo */}
         <div className="absolute left-4 -bottom-5 bg-[#ffe36e] text-[#241a3e] rounded-full w-9 h-9 flex items-center justify-center text-lg border-4 border-[#241a3e] z-10">
           <i className="fas fa-fan"></i>
@@ -42,10 +50,15 @@ export function ServiceCard({
       </div>
       <div className="p-5 flex flex-col flex-1">
         <h3 className="text-white text-lg font-bold mb-1 border-b-2 border-[#ffe36e] inline-block pb-1">{title}</h3>
-        <p className="text-[#e0d6ff] text-sm mb-3 min-h-[36px]">{description}</p>
+        {subtitle && <p className="text-[#e0d6ff] text-sm mb-3 min-h-[36px]">{subtitle}</p>}
+        {extraText && (
+          <div className="mb-2 text-[#3be88c] text-sm font-semibold italic">{extraText}</div>
+        )}
         <div className="mb-3">
           <p className="text-[#ffe36e] text-base font-bold">{price}</p>
-          <p className="text-[#3be88c] text-sm italic">A partir de R$96,30 para assinantes</p>
+          {memberPrice && (
+            <p className="text-[#3be88c] text-sm italic">{memberPrice}</p>
+          )}
         </div>
         <a
           href={path}
