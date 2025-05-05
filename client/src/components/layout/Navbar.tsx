@@ -10,7 +10,6 @@ const navigation = [
   { path: "/baralho-cigano", label: "Jogos de Baralho Cigano" },
   { path: "/terapias-energeticas", label: "Terapias Energéticas" },
   { path: "/todos-os-servicos", label: "Todos os Serviços" },
-  { path: "/sobre", label: "Sobre" },
 ];
 
 export function Navbar() {
