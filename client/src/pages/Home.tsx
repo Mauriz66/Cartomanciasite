@@ -54,7 +54,7 @@ export default function Home() {
         </div>
 
         {/* Services Overview */}
-        <div id="servicos" className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mt-10 justify-items-center">
+        <div id="servicos" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mt-10 justify-items-center">
           <ServiceCard
             title="Jogos de Baralho Cigano"
             subtitle="Leituras e jogos para clareza e orientação."
@@ -70,6 +70,14 @@ export default function Home() {
             memberPrice="10% de desconto para assinantes"
             image="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=800&q=80"
             path="/terapias-energeticas"
+          />
+          <ServiceCard
+            title="Plano Conexão Cigana"
+            subtitle="Acesso prioritário, descontos e benefícios exclusivos."
+            price="R$49,90/mês"
+            memberPrice="5 perguntas mensais garantidas, 10% de desconto em todos os serviços, prioridade no atendimento."
+            image="/assets/images/image_fx (6).jpg"
+            path="/plano-conexao"
           />
         </div>
         <div className="flex justify-center mt-8">

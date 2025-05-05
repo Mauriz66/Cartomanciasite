@@ -27,7 +27,7 @@ export function ServiceCard({
   return (
     <div
       className={cn(
-        "bg-[#241a3e] border border-[#3a2d5c] rounded-2xl shadow-lg overflow-hidden max-w-[350px] w-full flex flex-col transition-shadow hover:shadow-2xl",
+        "bg-card border border-card text-card-foreground rounded-2xl shadow-lg overflow-hidden max-w-[350px] w-full flex flex-col transition-shadow hover:shadow-2xl dark:bg-[#241a3e] dark:border-[#3a2d5c] dark:text-white",
         className
       )}
     >
@@ -45,8 +45,8 @@ export function ServiceCard({
         )}
       </div>
       <div className="p-5 flex flex-col flex-1">
-        <h3 className="text-white text-lg font-bold mb-1 border-b-2 border-[#ffe36e] inline-block pb-1">{title}</h3>
-        {subtitle && <p className="text-[#e0d6ff] text-sm mb-3 min-h-[36px]">{subtitle}</p>}
+        <h3 className="text-primary dark:text-white text-lg font-bold mb-1 border-b-2 border-[#ffe36e] inline-block pb-1">{title}</h3>
+        {subtitle && <p className="text-muted-foreground dark:text-[#e0d6ff] text-sm mb-3 min-h-[36px]">{subtitle}</p>}
         {extraText && (
           <div className="mb-2 text-[#3be88c] text-sm font-semibold italic">{extraText}</div>
         )}

@@ -85,6 +85,8 @@ export default function BaralhoCiganoPage() {
                 <th className="py-2 px-3">Aspecto</th>
                 <th className="py-2 px-3">Jogo 5 Cartas</th>
                 <th className="py-2 px-3">Jogo 10 Cartas</th>
+                <th className="py-2 px-3">Leitura Mensal</th>
+                <th className="py-2 px-3">Leitura de Aniversário</th>
               </tr>
             </thead>
             <tbody className="bg-[#241a3e] text-[#e0d6ff]">
@@ -92,24 +94,34 @@ export default function BaralhoCiganoPage() {
                 <td className="py-2 px-3">Duração</td>
                 <td className="py-2 px-3">35 minutos</td>
                 <td className="py-2 px-3">1 hora</td>
+                <td className="py-2 px-3">40 minutos</td>
+                <td className="py-2 px-3">1:20h</td>
               </tr>
               <tr>
                 <td className="py-2 px-3">Profundidade</td>
                 <td className="py-2 px-3">Objetiva</td>
                 <td className="py-2 px-3">Completa</td>
+                <td className="py-2 px-3">Mensal, áreas da vida</td>
+                <td className="py-2 px-3">Ciclo anual, 10 aspectos</td>
               </tr>
               <tr>
                 <td className="py-2 px-3">Aspectos analisados</td>
                 <td className="py-2 px-3">5 pontos</td>
                 <td className="py-2 px-3">10 pontos</td>
+                <td className="py-2 px-3">6 áreas</td>
+                <td className="py-2 px-3">10 aspectos</td>
               </tr>
               <tr>
                 <td className="py-2 px-3">Valor normal</td>
                 <td className="py-2 px-3">R$107</td>
                 <td className="py-2 px-3">R$170</td>
+                <td className="py-2 px-3">R$107</td>
+                <td className="py-2 px-3">R$170</td>
               </tr>
               <tr>
                 <td className="py-2 px-3">Valor assinante</td>
+                <td className="py-2 px-3">R$96,30</td>
+                <td className="py-2 px-3">R$153</td>
                 <td className="py-2 px-3">R$96,30</td>
                 <td className="py-2 px-3">R$153</td>
               </tr>
