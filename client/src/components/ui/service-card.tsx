@@ -36,24 +36,27 @@ export function ServiceCard({
           alt={title}
           className="w-full h-full object-cover"
         />
+        {badge && (
+          <div className="absolute top-4 right-4 bg-[#3be88c] text-[#241a3e] dark:bg-[#1e7c4a] dark:text-white px-4 py-1 rounded-full text-xs font-bold shadow-lg z-10">
+            {badge}
+          </div>
+        )}
       </div>
-      <div className="card-content p-6 flex flex-col flex-1">
-        <h3 className="card-title text-xl font-bold mb-2 text-[#241a3e] dark:text-white">{title}</h3>
-        {subtitle && <p className="card-desc text-base text-muted-foreground dark:text-[#e0d6ff] mb-3">{subtitle}</p>}
+      <div className="card-content p-6 flex flex-col flex-1 items-center text-center">
+        <h3 className="card-title text-2xl font-bold font-serif mb-2 text-[#241a3e] dark:text-white leading-tight">{title}</h3>
+        {subtitle && <p className="card-desc text-base text-muted-foreground dark:text-[#e0d6ff] mb-3 leading-relaxed">{subtitle}</p>}
         {extraText && (
           <div className="mb-2 text-accent dark:text-[#3be88c] text-sm font-semibold italic">{extraText}</div>
         )}
-        <div className="card-price flex flex-col gap-2 mb-4">
+        <div className="card-price flex flex-col gap-1 mb-4 w-full items-center">
           <span className="original-price text-lg font-bold text-primary dark:text-[#ffe36e]">{price}</span>
-          {badge && (
-            <div className="discount-badge inline-block bg-[#3be88c] text-[#241a3e] dark:bg-[#1e7c4a] dark:text-white px-3 py-1 rounded-full text-xs font-bold">
-              {badge}
-            </div>
+          {memberPrice && (
+            <span className="discount-price text-sm font-semibold text-[#3be88c] dark:text-[#aafad0] mt-1">{memberPrice}</span>
           )}
         </div>
         <a
           href={path}
-          className="card-btn block w-full text-center bg-gradient-to-r from-accent to-primary text-white dark:from-[#ffe36e] dark:to-[#ffb800] dark:text-[#241a3e] font-bold rounded-full py-3 text-base mt-auto shadow hover:from-primary hover:to-accent dark:hover:from-[#ffb800] dark:hover:to-[#ffe36e] transition"
+          className="card-btn block w-full text-center bg-[#ffe36e] hover:bg-[#ffb800] text-[#241a3e] font-bold rounded-full py-3 text-base mt-auto shadow transition"
           target="_blank"
           rel="noopener noreferrer"
         >
